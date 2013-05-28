@@ -1,0 +1,21 @@
+.bt-image img {
+	background-image:
+		url('../images/bottom-right.png'),
+		url('../images/bottom-left.png'),
+		url('../images/top-right.png'),
+		url('../images/top-left.png'),
+		url('../images/top-middle.png'),
+		url('../images/left-middle.png'),
+        url('../images/right-middle.png'),
+        url('../images/bottom-middle.png')       
+		;
+	background-repeat:no-repeat,no-repeat,no-repeat,no-repeat,repeat-x,repeat-y,repeat-y,repeat-x;
+	background-position:right bottom, left bottom, right top, left top, center top, left center, center right, center bottom;
+	background-color:#fff;
+	padding:50px;
+	max-width:90%;
+	margin:0 auto;
+}
+.bt-image .blockinstance-content div a img {
+    max-width:90%;
+}
